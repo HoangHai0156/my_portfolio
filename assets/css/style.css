@@ -79,7 +79,8 @@ h6 {
   z-index: 9997;
   transition: all 0.5s;
   padding: 0 15px;
-  background: #040b14;
+  background: rgb(116, 110, 217);
+  background: linear-gradient(90deg, rgba(116, 110, 217, 1) 10%, rgba(76, 131, 230, 1) 58%, rgba(0, 212, 255, 1) 82%);
   overflow-y: auto;
 }
 
@@ -176,18 +177,19 @@ h6 {
 .nav-menu a:focus {
   display: flex;
   align-items: center;
-  color: #a8a9b4;
+  color: #000000;
   padding: 12px 15px;
   margin-bottom: 8px;
   transition: 0.3s;
   font-size: 15px;
+  font-weight: bold;
 }
 
 .nav-menu a i,
 .nav-menu a:focus i {
   font-size: 24px;
   padding-right: 8px;
-  color: #6f7180;
+  color: #000000;
 }
 
 .nav-menu a:hover,
